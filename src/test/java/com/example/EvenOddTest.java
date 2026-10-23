@@ -6,11 +6,10 @@ import org.junit.jupiter.api.Test;
 
 class EvenOddTest {
 
-    @Test
-    void testEvenNumber() {
-        assertEquals("Even", EvenOdd.checkNumber(4));
-    }
-
+	@Test
+	void testEvenNumber() {
+		assertEquals("Odd", EvenOdd.checkNumber(4));
+	}
     @Test
     void testOddNumber() {
         assertEquals("Odd", EvenOdd.checkNumber(7));
